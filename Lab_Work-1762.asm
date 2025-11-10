@@ -35,8 +35,6 @@ main proc
      jmp L3
 
      
-                
-     
      L1:
      mov ah,9
      lea dx,a
@@ -69,4 +67,5 @@ main proc
      mov ah,4ch
      int 21h
      main endp
+
 end main
